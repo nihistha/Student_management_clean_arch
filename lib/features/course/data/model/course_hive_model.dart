@@ -35,4 +35,11 @@ class CourseHiveModel {
   List<CourseEntity> toCourseEntityList(List<CourseHiveModel> lst) {
     return lst.map((model) => model.toEntity()).toList();
   }
+  List<CourseHiveModel> fromEntityList(List<CourseEntity> entities) {
+    return entities.map((entity) => fromEntity(entity)).toList();
+  }
+  @override
+  String toString() {
+    return 'courseId: $courseId, courseName: $courseName';
+  }
 }
