@@ -1,0 +1,1 @@
+ D:\\mobileclassworks\\STUDENT_MANAGEMENT_STARTER_CLEAN_ARCH\\.dart_tool\\flutter_build\\d27ec88afdd9bd6141d0bea2d5d9b530\\native_assets.yaml: 
